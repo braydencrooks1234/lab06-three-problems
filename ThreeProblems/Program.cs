@@ -118,7 +118,55 @@ do {
     }
     if (choice == 3 || choice == 4)
     {
-        
+                int[] scores = new int[5];
+        System.Console.WriteLine("Exercise 3: The Score Report ===");
+
+
+        for (int i = 0; i < 5; i++)
+        {
+            System.Console.Write($"Score {i + 1}: ");
+            scores[i] = Convert.ToInt32(Console.ReadLine());
+        }
+
+
+        int total = 0;
+        int highest = scores[0];
+        int count = 0;
+
+
+        foreach (int score in scores)
+        {
+            total += score;
+
+
+            if (score > highest)
+            {
+                highest = score;
+            }
+
+
+            if (score >= 60)
+            {
+                count += 1;
+            }
+        }
+
+
+        double average = (double)total / scores.Length;
+
+
+        System.Console.WriteLine("");
+        System.Console.WriteLine("Scores entered: " + scores.Length.ToString());
+        System.Console.WriteLine("Total: " + total.ToString());
+        System.Console.WriteLine("Average: " + average.ToString("F1"));
+        System.Console.WriteLine("Highest: " + highest.ToString());
+        System.Console.WriteLine($"Passing: {count.ToString()} of {scores.Length.ToString()}");
+        System.Console.WriteLine("");
+
+
+
+
+
     }
 
 } while (choice != 5);
