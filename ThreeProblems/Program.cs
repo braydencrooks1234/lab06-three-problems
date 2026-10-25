@@ -33,125 +33,15 @@ do {
 
     if (choice == 1 || choice == 4)
     {
-        System.Console.WriteLine("");
-        System.Console.WriteLine("=== Excercise 1: The Grade Checker");
-        double score = 0;
-
-        do
-        {
-            score = 0;
-            System.Console.Write("Score: ");
-            score = Convert.ToDouble(Console.ReadLine());
-            
-            if (score <= 0 || score >= 100)
-            {
-                System.Console.WriteLine("A score must be between 0 and 100.");
-            }
-        } while (score <= 0 || score >= 100);
-
-        if (score >= 90)
-        {
-            System.Console.WriteLine(score + " earns an A.");
-        }
-        else if (score >= 80)
-        {
-            System.Console.WriteLine(score + " earns a B.");
-        }
-        else if (score >= 70)
-        {
-            System.Console.WriteLine(score + " earns a C.");
-        }
-        else if (score >= 60)
-        {
-            System.Console.WriteLine(score + " earns a D.");
-        }
-        else if (score < 60)
-        {
-            System.Console.WriteLine(score + " earns a F.");
-        }
-
-        System.Console.WriteLine("");
+        
     }
     if (choice == 2 || choice == 4)
     {
-        System.Console.WriteLine("=== Excercise 2: The Dice Table ===");
-        char ans = 'y';
-        int roll = 0;
-        int wins = 0;
-        int die1 = 0;
-        int die2 = 0;
-        int total = 0;
-        do
-        {
-            roll += 1;
-            die1 = rng.Next(1, 7);
-            die2 = rng.Next(1, 7);
-            total = die1 + die2;
-            System.Console.Write($"Roll {roll}: {die1} and {die2}, total {total}. ");
-            if (die1 == 1 && die2 == 1)
-            {
-                System.Console.WriteLine("Snake eyes.");
-            }
-            else if (die1 == die2)
-            {
-                System.Console.WriteLine("Doubles!");
-            }
-            else if (total == 7 || total == 11)
-            {
-                System.Console.WriteLine("A winner.");
-                wins += 1;
-            }
-            else
-            {
-                System.Console.WriteLine("");
-            }
-            System.Console.Write("Roll again? (y/n): ");
-            ans = Convert.ToChar(Console.ReadLine());
-        } while (ans != 'n');
-        System.Console.WriteLine($"You rolled {roll} times and won {wins}.");
-        System.Console.WriteLine("");
+        
     }
     if (choice == 3 || choice == 4)
     {
-        int[] scores = new int[5];
-        System.Console.WriteLine("Exercise 3: The Score Report ===");
-
-        for (int i = 0; i < 5; i++)
-        {
-            System.Console.Write($"Score {i + 1}: ");
-            scores[i] = Convert.ToInt32(Console.ReadLine());
-        }
-
-        int total = 0;
-        int highest = scores[0];
-        int count = 0;
-
-        foreach (int score in scores)
-        {
-            total += score;
-
-            if (score > highest)
-            {
-                highest = score;
-            }
-
-            if (score >= 60)
-            {
-                count += 1;
-            }
-        }
-
-        double average = (double)total / scores.Length;
-
-        System.Console.WriteLine("");
-        System.Console.WriteLine("Scores entered: " + scores.Length.ToString());
-        System.Console.WriteLine("Total: " + total.ToString());
-        System.Console.WriteLine("Average: " + average.ToString("F1"));
-        System.Console.WriteLine("Highest: " + highest.ToString());
-        System.Console.WriteLine($"Passing: {count.ToString()} of {scores.Length.ToString()}");
-        System.Console.WriteLine("");
-
-
+        
     }
 
 } while (choice != 5);
