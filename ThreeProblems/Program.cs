@@ -33,7 +33,48 @@ do {
 
     if (choice == 1 || choice == 4)
     {
-        
+                System.Console.WriteLine("");
+        System.Console.WriteLine("=== Excercise 1: The Grade Checker");
+        double score = 0;
+
+
+        do
+        {
+            score = 0;
+            System.Console.Write("Score: ");
+            score = Convert.ToDouble(Console.ReadLine());
+           
+            if (score <= 0 || score >= 100)
+            {
+                System.Console.WriteLine("A score must be between 0 and 100.");
+            }
+        } while (score <= 0 || score >= 100);
+
+
+        if (score >= 90)
+        {
+            System.Console.WriteLine(score + " earns an A.");
+        }
+        else if (score >= 80)
+        {
+            System.Console.WriteLine(score + " earns a B.");
+        }
+        else if (score >= 70)
+        {
+            System.Console.WriteLine(score + " earns a C.");
+        }
+        else if (score >= 60)
+        {
+            System.Console.WriteLine(score + " earns a D.");
+        }
+        else if (score < 60)
+        {
+            System.Console.WriteLine(score + " earns a F.");
+        }
+
+
+        System.Console.WriteLine("");
+
     }
     if (choice == 2 || choice == 4)
     {
