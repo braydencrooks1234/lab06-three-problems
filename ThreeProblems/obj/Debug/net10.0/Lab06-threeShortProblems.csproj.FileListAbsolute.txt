@@ -1,0 +1,14 @@
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\bin\Debug\net10.0\Lab06-threeShortProblems.exe
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\bin\Debug\net10.0\Lab06-threeShortProblems.deps.json
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\bin\Debug\net10.0\Lab06-threeShortProblems.runtimeconfig.json
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\bin\Debug\net10.0\Lab06-threeShortProblems.dll
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\bin\Debug\net10.0\Lab06-threeShortProblems.pdb
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\obj\Debug\net10.0\Lab06-threeShortProblems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\obj\Debug\net10.0\Lab06-threeShortProblems.AssemblyInfoInputs.cache
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\obj\Debug\net10.0\Lab06-threeShortProblems.AssemblyInfo.cs
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\obj\Debug\net10.0\Lab06-threeShortProblems.csproj.CoreCompileInputs.cache
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\obj\Debug\net10.0\Lab06-threeShortProblems.dll
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\obj\Debug\net10.0\refint\Lab06-threeShortProblems.dll
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\obj\Debug\net10.0\Lab06-threeShortProblems.pdb
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\obj\Debug\net10.0\Lab06-threeShortProblems.genruntimeconfig.cache
+C:\Users\brayd\CSCI1250\Lab6\Lab06-threeShortProblems\obj\Debug\net10.0\ref\Lab06-threeShortProblems.dll
